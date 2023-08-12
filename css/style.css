@@ -151,6 +151,17 @@ body {
         font-size: 1.234rem;
         font-weight: bold;
     }
+
+    /*Subscribed confirmation page */
+    section#subscribed-sec {
+        max-width: 375px;
+        padding: 3rem;
+        border: 1px solid green;
+    }
+
+    div.subscribed-image img {
+        
+    }
 }
 
 @media screen and (min-width: 1440px) {
