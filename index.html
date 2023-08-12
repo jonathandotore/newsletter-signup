@@ -3,13 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" href="./assets/images/favicon-32x32.png" type="image/x-icon">
     <title>Newsletter</title>
 </head>
 <body>
-    <main>
-        
+    <main id="main">
+        <section class="sec-image">
+            <div class="image">
+                <img src="./assets/images/illustration-sign-up-mobile.svg" alt="display on left and graphics on right">
+            </div>
+        </section>
+        <section class="formsec">
+                <div class="content">
+                    <span>Stay updated!</span>
+                </div>
+                <div class="list">
+                    <p>Join 60,000+ product managers receiving monthly updates on:</p>
+                    <ul>
+                        <li><span>Product discovery and building what a matters</span></li><br>
+                        <li><span class="second">Measuring to ensure updates are a success</span></li><br>
+                        <li><span class="last">And much more!</span></li>
+                    </ul>
+                </div>
+                <div class="form">
+                    <form action="sent-email" id="emailForm">
+                        <label for="email" class="email">Email address</label>
+                        <span id="valid">Valid e-mail</span>
+                        <span id="invalid">Invalid e-mail</span>
+                        <input type="text" name="email" id="email" placeholder="email@company.com">
+                        <button type="submit" for="email">Subscribe to monthly newsletter</button>
+                    </form>
+                </div>
+        </section>
     </main>
+<script src="./js/script.js"></script>
 </body>
 </html>
