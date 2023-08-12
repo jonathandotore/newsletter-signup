@@ -1,0 +1,23 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+    --primary: hsl(4, 100%, 67%);
+    --neutral1: hsl(234, 29%, 20%);
+    --neutral2: hsl(235, 18%, 26%);
+    --neutral3: hsl(231, 7%, 60%);
+    --neutral4: hsl(0, 0%, 100%);
+    --radius: 5px;
+    font-size: 62,5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 375px) {
+    
+}
